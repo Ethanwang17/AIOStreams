@@ -24,7 +24,8 @@ export function torrentioFormat(stream: ParsedStream): {
     name += '[P2P]\n';
   }
 
-  name += `${stream.addon.name} ${stream.personal ? '(Your Media) ' : ''}${stream.resolution} `;
+  const resolutionDisplay = stream.resolution === '2160p' ? '4K' : stream.resolution;
+  name += `${stream.addon.name} ${stream.personal ? '(Your Media) ' : ''}${resolutionDisplay} `;
 
   if (stream.visualTags.length > 0) {
     name += stream.visualTags.join(' | ');
