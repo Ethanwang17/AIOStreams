@@ -6,7 +6,7 @@ const createLanguageRegex = (pattern: string): RegExp =>
 
 export const PARSE_REGEX = {
   resolutions: {
-    '2160p': createRegex(
+    '4k': createRegex(
       '(bd|hd|m)?(4k|2160(p|i)?)|u(ltra)?[ .\\-_]?hd|3840\s?x\s?(\d{4})'
     ),
     '1440p': createRegex(
