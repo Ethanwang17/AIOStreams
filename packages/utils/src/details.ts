@@ -944,7 +944,7 @@ export const compressedConfigMap: Record<string, string> = {
   p2p: 'e',
   live: 'f',
   resolutions: 'g',
-  '4k': 'h',
+  '2160p': 'h',
   '1440p': 'i',
   '1080p': 'j',
   '720p': 'k',

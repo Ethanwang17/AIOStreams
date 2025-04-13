@@ -455,7 +455,7 @@ export class BaseWrapper {
             case 'UHD':
             case '4K':
             case '2160':
-              return '4k';
+              return '2160p';
             default:
               return 'Unknown';
           }
